@@ -15,6 +15,12 @@
         
     </head>
     <body>
+      @include('layouts.partials._nav')
+      {{-- le contenus ou le body de de la page--}}
       @yield('content')
+        {{--ce code represente le pieds de page--}}
+      <footer>
+      @yield('footer')
+      </footer>
     </body>
 </html>

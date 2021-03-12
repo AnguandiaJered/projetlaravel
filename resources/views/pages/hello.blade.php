@@ -1,38 +1,17 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
+{{--le contenu de la page--}}
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+@section('content')
+<h1>JERED</h1>
 
-        <!-- Styles -->
-        
-    </head>
-    <body>
-       <h1>Laravel</h1>
-    </body>
-</html>
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@include('shared._shared')
+ @endsection  
 
-        <title>Laravel</title>
+{{--le pieds de page--}}
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+ @section('footer')
 
-        <!-- Styles -->
-        
-    </head>
-    <body>
-       <h1>JERED</h1>
-    </body>
-</html>
+    jered &copy 2021
+
+ @endsection 
